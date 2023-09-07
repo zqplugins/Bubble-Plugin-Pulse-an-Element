@@ -1,0 +1,3 @@
+function(instance, context) {
+jQuery.fn.pulse=function(e,u,n,r,t){isNaN(n)&&(t=r,r=n,n=1);var c=jQuery.speed(u,r,t),i=!1!==c.queue,a=0;for(var s in e)a=Math.max(e[s].length,a);return c.times=c.times||n,this[i?"queue":"each"](function(){var u={},n=jQuery.extend({},c),r=jQuery(this);(function t(){var i={},s=!1;for(var l in e)u[l]=u[l]||{runs:0,cur:-1},u[l].cur<e[l].length-1?++u[l].cur:(u[l].cur=0,++u[l].runs),e[l].length===a&&(s=n.times>u[l].runs),i[l]=e[l][u[l].cur];n.complete=t,n.queue=!1,s?r.animate(i,n):c.complete.call(r[0])})()})};
+}

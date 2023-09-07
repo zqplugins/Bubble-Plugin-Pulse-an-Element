@@ -1,0 +1,21 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "pulse",
+    "fields": {
+        "AAD": {
+            "caption": "Element_id",
+            "default_val": "demo,square,flag",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "element_id",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-favorite"
+}
