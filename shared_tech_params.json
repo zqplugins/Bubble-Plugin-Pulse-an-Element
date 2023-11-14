@@ -1,4 +1,10 @@
 {
+    "assets": {
+        "AAE": {
+            "name": "preview",
+            "url": "//meta-l.cdn.bubble.io/f1697302087809x110766138459000620/gear.svg"
+        }
+    },
     "dependencies": {
         "plugin_api_version": 3,
         "use_jquery": true

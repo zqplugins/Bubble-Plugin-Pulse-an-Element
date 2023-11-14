@@ -15,6 +15,24 @@
             "name": "element_id",
             "rank": 0,
             "value": "text"
+        },
+        "AAF": {
+            "caption": "Duration",
+            "default_val": 400,
+            "doc": "Milliseconds",
+            "editor": "StaticNumber",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "Times",
+            "default_val": "Infinity",
+            "doc": "Repeat times, valid values: Number or Infinity",
+            "editor": "StaticText",
+            "name": "times",
+            "rank": 2,
+            "value": "text"
         }
     },
     "icon": "ion-android-favorite"
