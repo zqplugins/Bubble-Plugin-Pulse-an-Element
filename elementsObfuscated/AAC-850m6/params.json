@@ -1,0 +1,39 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "pulse",
+    "fields": {
+        "AAD": {
+            "caption": "Element_id",
+            "default_val": "demo,square,flag",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "element_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Duration",
+            "default_val": 400,
+            "doc": "Milliseconds",
+            "editor": "StaticNumber",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "Times",
+            "default_val": "Infinity",
+            "doc": "Repeat times, valid values: Number or Infinity",
+            "editor": "StaticText",
+            "name": "times",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-favorite"
+}
